@@ -1,0 +1,30 @@
+<story path="stories/menampilkan_detail_pesanan.story" title="Find more information about the order to be purchased">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">pay for order</inOrderTo>
+  <asA keyword="As a">customer</asA>
+  <iWantTo keyword="I want to">see more information about the order before i pay</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Find more information about the order">
+<step outcome="pending" keyword="PENDING">Given a list of product : Kentucky Pedas Himajas, Nasi Katsu &lt;list_product&gt;</step>
+<step outcome="pending" keyword="PENDING">When I make a order of one product</step>
+<step outcome="pending" keyword="PENDING">Then the ordered product should have the same product &lt;product&gt;</step>
+<pendingMethod>@Given(&quot;a list of product : Kentucky Pedas Himajas, Nasi Katsu &lt;list_product&gt;&quot;)
+@Pending
+public void givenAListOfProductKentuckyPedasHimajasNasiKatsulist_product() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I make a order of one product&quot;)
+@Pending
+public void whenIMakeAOrderOfOneProduct() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;the ordered product should have the same product &lt;product&gt;&quot;)
+@Pending
+public void thenTheOrderedProductShouldHaveTheSameProductproduct() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

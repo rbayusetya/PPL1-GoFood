@@ -1,0 +1,36 @@
+<xref>
+  <whenMade>1574729718357</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-skip -ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description>Find out the best payment method</description>
+      <narrative>In order to pay for order
+As a customer
+I want to choose the best payment method
+</narrative>
+      <name>menampilkan_metode_pembayaran_terbaik.story</name>
+      <path>story/menampilkan_metode_pembayaran_terbaik.story</path>
+      <html>story.menampilkan_metode_pembayaran_terbaik.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Recommend payment method if balance enough
+Given rhio has balance 1000
+When amount is 500
+Then system should recommend gopay payment method
+
+
+Scenario:Recommend payment method if balance not enough
+Given adjie has balance 10000
+When amount is 15000000
+Then system should recommend cash payment method
+
+
+</scenarios>
+      <passed>true</passed>
+      <started>1574729714331</started>
+      <duration>868</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

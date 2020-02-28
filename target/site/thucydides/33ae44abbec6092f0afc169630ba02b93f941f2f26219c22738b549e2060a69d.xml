@@ -1,0 +1,15 @@
+<acceptance-test-run title="Recommend payment method if balance not enough" name="Recommend payment method if balance not enough" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="30" timestamp="2019-11-26T07:55:15.166+07:00">
+  <user-story id="menampilkan_metode_pembayaran_terbaik" name="Menampilkan metode pembayaran terbaik" path="story/menampilkan_metode_pembayaran_terbaik.story"/>
+  <tags>
+    <tag name="Menampilkan metode pembayaran terbaik" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7">
+    <description>Given {adjie} has balance {10000}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6">
+    <description>When amount is {15000000}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6">
+    <description>Then system should recommend {cash} payment method</description>
+  </test-step>
+</acceptance-test-run>

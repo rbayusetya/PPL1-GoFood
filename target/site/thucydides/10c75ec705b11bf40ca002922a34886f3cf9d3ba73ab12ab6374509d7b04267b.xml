@@ -1,0 +1,15 @@
+<acceptance-test-run title="Recommend payment method if balance enough" name="Recommend payment method if balance enough" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="362" timestamp="2019-11-26T07:55:14.493+07:00">
+  <user-story id="menampilkan_metode_pembayaran_terbaik" name="Menampilkan metode pembayaran terbaik" path="story/menampilkan_metode_pembayaran_terbaik.story"/>
+  <tags>
+    <tag name="Menampilkan metode pembayaran terbaik" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="170">
+    <description>Given {rhio} has balance {1000}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8">
+    <description>When amount is {500}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="47">
+    <description>Then system should recommend {gopay} payment method</description>
+  </test-step>
+</acceptance-test-run>

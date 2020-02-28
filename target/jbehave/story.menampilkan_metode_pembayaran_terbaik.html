@@ -1,0 +1,21 @@
+<div class="story">
+<h1>Find out the best payment method</h1>
+<div class="path">story/menampilkan_metode_pembayaran_terbaik.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> pay for order</div>
+<div class="element asA"><span class="keyword asA">As a</span> customer</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> choose the best payment method</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Recommend payment method if balance enough</h2>
+<div class="step successful">Given <span class="step parameter">rhio</span> has balance <span class="step parameter">1000</span></div>
+<div class="step successful">When amount is <span class="step parameter">500</span></div>
+<div class="step successful">Then system should recommend <span class="step parameter">gopay</span> payment method</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Recommend payment method if balance not enough</h2>
+<div class="step successful">Given <span class="step parameter">adjie</span> has balance <span class="step parameter">10000</span></div>
+<div class="step successful">When amount is <span class="step parameter">15000000</span></div>
+<div class="step successful">Then system should recommend <span class="step parameter">cash</span> payment method</div>
+</div>
+</div>

@@ -1,0 +1,21 @@
+{"xref": {
+  "whenMade": 1574729718357,
+  "createdBy": "JBehave",
+  "metaFilter": "-skip -ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "Find out the best payment method",
+      "narrative": "In order to pay for order\u000aAs a customer\u000aI want to choose the best payment method\u000a",
+      "name": "menampilkan_metode_pembayaran_terbaik.story",
+      "path": "story/menampilkan_metode_pembayaran_terbaik.story",
+      "html": "story.menampilkan_metode_pembayaran_terbaik.html",
+      "meta": "",
+      "scenarios": "Scenario:Recommend payment method if balance enough\u000aGiven rhio has balance 1000\u000aWhen amount is 500\u000aThen system should recommend gopay payment method\u000a\u000a\u000aScenario:Recommend payment method if balance not enough\u000aGiven adjie has balance 10000\u000aWhen amount is 15000000\u000aThen system should recommend cash payment method\u000a\u000a\u000a",
+      "passed": true,
+      "started": 1574729714331,
+      "duration": 868
+    }
+  ],
+  "stepMatches": []
+}}

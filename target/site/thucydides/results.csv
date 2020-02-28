@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Menampilkan metode pembayaran terbaik","Recommend payment method if balance enough","SUCCESS","2019-11-26T07:55:14.493+07:00","0.0","0.36"
+"Menampilkan metode pembayaran terbaik","Recommend payment method if balance not enough","SUCCESS","2019-11-26T07:55:15.166+07:00","0.0","0.03"

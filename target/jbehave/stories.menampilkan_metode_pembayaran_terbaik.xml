@@ -1,0 +1,53 @@
+<story path="stories/menampilkan_metode_pembayaran_terbaik.story" title="Find out the best payment method">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">pay for order</inOrderTo>
+  <asA keyword="As a">customer</asA>
+  <iWantTo keyword="I want to">choose the best payment method</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Recommend payment method if balance enough">
+<step outcome="pending" keyword="PENDING">Given rhio has balance 1000</step>
+<step outcome="pending" keyword="PENDING">When amount is 500</step>
+<step outcome="pending" keyword="PENDING">Then system should recommend gopay payment method</step>
+<pendingMethod>@Given(&quot;rhio has balance 1000&quot;)
+@Pending
+public void givenRhioHasBalance1000() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;amount is 500&quot;)
+@Pending
+public void whenAmountIs500() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;system should recommend gopay payment method&quot;)
+@Pending
+public void thenSystemShouldRecommendGopayPaymentMethod() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Recommend payment method if balance not enough">
+<step outcome="pending" keyword="PENDING">Given adjie has balance 10000</step>
+<step outcome="pending" keyword="PENDING">When amount is 15000000</step>
+<step outcome="pending" keyword="PENDING">Then system should recommend cash payment method</step>
+<pendingMethod>@Given(&quot;adjie has balance 10000&quot;)
+@Pending
+public void givenAdjieHasBalance10000() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;amount is 15000000&quot;)
+@Pending
+public void whenAmountIs15000000() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;system should recommend cash payment method&quot;)
+@Pending
+public void thenSystemShouldRecommendCashPaymentMethod() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

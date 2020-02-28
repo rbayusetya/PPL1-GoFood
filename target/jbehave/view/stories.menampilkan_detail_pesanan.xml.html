@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>stories.menampilkan_detail_pesanan</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories/menampilkan_detail_pesanan.story" title="Find more information about the order to be purchased">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">pay for order</inOrderTo>
+  <asA keyword="As a">customer</asA>
+  <iWantTo keyword="I want to">see more information about the order before i pay</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Find more information about the order">
+<step outcome="pending" keyword="PENDING">Given a list of product : Kentucky Pedas Himajas, Nasi Katsu &lt;list_product&gt;</step>
+<step outcome="pending" keyword="PENDING">When I make a order of one product</step>
+<step outcome="pending" keyword="PENDING">Then the ordered product should have the same product &lt;product&gt;</step>
+<pendingMethod>@Given(&quot;a list of product : Kentucky Pedas Himajas, Nasi Katsu &lt;list_product&gt;&quot;)
+@Pending
+public void givenAListOfProductKentuckyPedasHimajasNasiKatsulist_product() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I make a order of one product&quot;)
+@Pending
+public void whenIMakeAOrderOfOneProduct() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;the ordered product should have the same product &lt;product&gt;&quot;)
+@Pending
+public void thenTheOrderedProductShouldHaveTheSameProductproduct() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

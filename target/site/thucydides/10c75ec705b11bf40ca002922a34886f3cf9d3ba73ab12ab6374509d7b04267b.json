@@ -1,0 +1,55 @@
+{
+  "title": "Recommend payment method if balance enough",
+  "name": "Recommend payment method if balance enough",
+  "result": "SUCCESS",
+  "steps": "3",
+  "successful": "3",
+  "failures": "0",
+  "skipped": "0",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "362",
+  "timestamp": "2019-11-26T07:55:14.493+07:00",
+  "user-story": {
+    "qualifiedStoryClassName": "menampilkan_metode_pembayaran_terbaik",
+    "storyName": "Menampilkan metode pembayaran terbaik",
+    "path": "story/menampilkan_metode_pembayaran_terbaik.story"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Menampilkan metode pembayaran terbaik",
+      "type": "story"
+    }
+  ],
+  "test-steps": [
+    {
+      "number": 1,
+      "description": "Given {rhio} has balance {1000}",
+      "duration": 170,
+      "startTime": 1574729714626,
+      "screenshots": [],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 2,
+      "description": "When amount is {500}",
+      "duration": 8,
+      "startTime": 1574729714798,
+      "screenshots": [],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 3,
+      "description": "Then system should recommend {gopay} payment method",
+      "duration": 47,
+      "startTime": 1574729714807,
+      "screenshots": [],
+      "result": "SUCCESS",
+      "children": []
+    }
+  ]
+}

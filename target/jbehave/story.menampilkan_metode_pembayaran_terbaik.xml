@@ -1,0 +1,17 @@
+<story path="story/menampilkan_metode_pembayaran_terbaik.story" title="Find out the best payment method">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">pay for order</inOrderTo>
+  <asA keyword="As a">customer</asA>
+  <iWantTo keyword="I want to">choose the best payment method</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Recommend payment method if balance enough">
+<step outcome="successful">Given <parameter>rhio</parameter> has balance <parameter>1000</parameter></step>
+<step outcome="successful">When amount is <parameter>500</parameter></step>
+<step outcome="successful">Then system should recommend <parameter>gopay</parameter> payment method</step>
+</scenario>
+<scenario keyword="Scenario:" title="Recommend payment method if balance not enough">
+<step outcome="successful">Given <parameter>adjie</parameter> has balance <parameter>10000</parameter></step>
+<step outcome="successful">When amount is <parameter>15000000</parameter></step>
+<step outcome="successful">Then system should recommend <parameter>cash</parameter> payment method</step>
+</scenario>
+</story>
